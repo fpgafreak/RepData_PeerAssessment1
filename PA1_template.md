@@ -1,9 +1,4 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 
 ## Loading and preprocessing the data
@@ -90,7 +85,7 @@ sum(is.na(proc_data$steps))
 
 ### 2. Devise a strategy for filling in all of the missing values in the dataset
 
-####**Replace missing values with mean number of steps in the same interval, rounded to nearest integer.**
+**Replace missing values with mean number of steps in the same interval, rounded to nearest integer.**
 
 ### 3. Create a new dataset that is equal to the original dataset but with the missing data filled in
 
